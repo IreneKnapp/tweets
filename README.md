@@ -39,7 +39,11 @@ git remote add <git name> <their fork of diracdelta's repo>
 git fetch <git name>
 ```
 
+<<<<<<< HEAD
 * to follow everybody using GitHub:
+=======
+* to follow everybody:
+>>>>>>> 9870d89fe5adc5b3581e0af62f21a3896f25ae57
 `./follow-everybody.bash`
 
 
@@ -71,3 +75,4 @@ git log --graph --all --decorate --oneline
 
 see `encrypt using the public key of a github user` in https://sshenc.sh/ or
 use your favorite key distribution mechanism to get their public key.
+
